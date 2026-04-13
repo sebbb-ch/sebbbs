@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# SvelteKit build outputs
+apps/*/build/
+apps/*/.svelte-kit/
+
+# Vite
+dist/
+.vite/
+
+# env files — never commit these
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# logs
+npm-debug.log*
+*.log

@@ -1,0 +1,22 @@
+{
+	"name": "sebbb",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently \"vite\" \"npm run dev -w apps/portfolio\" \"npm run dev -w apps/blogs\" \"npm run dev -w apps/library\""
+	},
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*",
+		"server"
+	],
+	"devDependencies": {
+		"concurrently": "^9.2.1",
+		"vite": "^8.0.8"
+	}
+}
