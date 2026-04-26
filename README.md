@@ -12,6 +12,10 @@ Some inspirations:
   - [Neocities](https://neocities.org/)
   - [This](https://brisray.com/web/webring-list.htm)
 
+- [Letterboxd RSS]( https://github.com/janw/letterboxd-rss)
+
 - Just some cool sites
   - [This very helpful post](https://mapuc.substack.com/p/how-to-drift-through-the-indie-web)
   - [Marginalia](https://www.marginalia.nu/)
+  - [https://valerionarcisi.me/en/blog/how-i-display-my-latest-watched-movies-using-letterboxd-rss-feed/](Letterboxd RSS)
+  - [https://www.adityatejpaul.com/](sure)
