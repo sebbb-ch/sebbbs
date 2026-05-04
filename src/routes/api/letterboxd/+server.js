@@ -1,5 +1,5 @@
 /**
- * @file /library_content/letterboxd/+server.js
+ * @file /route/api/letterboxd/+server.js
  * 
  * Server route to get letterboxd RSS feed as XML
  */

@@ -1,5 +1,5 @@
 /**
- * @file /library_content/goodreads/+server.js
+ * @file /routes/api/goodreads/+server.js
  * 
  * Server route to get goodreads RSS feed as XML
  */
