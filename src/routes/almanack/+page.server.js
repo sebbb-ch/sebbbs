@@ -2,7 +2,12 @@
  * @file /library/+page.server.js
  */
 
-export function load() 
+
+/// @cite https://svelte.dev/docs/kit/load#Making-fetch-requests
+export async function load({ fetch, params }) 
 {
-    return {};
+    const res           = await fetch("/api/letterboxd");
+    const letterboxd    = await res.json();
+
+    return { letterboxd };
 }

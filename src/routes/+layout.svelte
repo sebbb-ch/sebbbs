@@ -1,3 +1,9 @@
+ <!--  
+ 	File: /src/routes/+layout.svelte 
+
+	Description: Shared stlyes/UI elements between all subpages
+ -->
+
 <script>
 	import favicon from '$lib/assets/favicon.svg';
 
